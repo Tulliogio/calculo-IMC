@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Evaluacion IMC</title>
+
+</head>
+<header>
+    <h1>La Importancia del IMC </h1>
+    <h3>Ingresa tus datos aquí.</h3>
+    <img src="https://img.icons8.com/color/16/000000/heart-health.png" alt="Logo" title="Logo IMC">
+    <img src="https://img.icons8.com/color/16/000000/heart-health.png" alt="Logo" title="Logo IMC">
+    <img src="images/LOGO.png" alt="Logo" title="Logo IMC">
+    <img src="https://img.icons8.com/color/16/000000/heart-health.png" alt="Logo" title="Logo IMC">
+    <img src="https://img.icons8.com/color/16/000000/heart-health.png" alt="Logo" title="Logo IMC">
+</header>
+<nav></nav>
+<section>
+    <article>
+        <div class="columnaDerecha">
+            <form class="formulario" action="">
+                <input type="text" name="nomb" placeholder="Nombre" id="nombre"><br>
+                <input type="number" name="alt" id="altura" placeholder="Altura" size="4"><br>
+                <input type="number" name="p" id="peso" placeholder="Peso" size="4"> <br><br>
+                <input type="number" id="edad" placeholder="Edad en años" size="4"> <br><br>
+
+                <input type="radio" id="sexo1" name="sexo" value="hombre">
+                <label for="hombre">Hombre</label><br>
+                <input type="radio" id="sexo2" name="sexo" value="mujer">
+                <label for="mujer">Mujer</label><br>
+                <select name="select">
+                    <option value="1.2">Poco o ningún ejercicio</option>
+                    <option value="1.375">Ejercicio ligero (1 a 3 días a la semana)</option>
+                    <option value="1.55">Ejercicio moderado (3 a 5 días a la semana)</option>
+                    <option value="1.72">Deportista (6 -7 días a la semana)</option>
+                    <option value="1.9">Atleta (Entrenamientos mañana y tarde)</option>
+                </select>
+                <input type="button" id="evaluar" value="Evaluar" onclick="mensaje()">
+            </form>
+        </div>
+        <section>
+            <p><label id="respuesta"></label></p>
+            <p><label id="respuesta2"></label></p>
+        </section>
+    </article>
+
+    <aside class="aside_principal">
+        <p class="contendido"><img src="https://img.icons8.com/color/16/000000/heart-health.png" style="float: left;" />
+        <div class="columnaDerecha">
+            <div class="subTitulo">IMC:</div>
+            IMC es el acrónimo de Índice de Masa Corporal, una medida ampliamente utilizada para calcular si el peso
+            de
+            una persona se encuentra proporcionado respecto a su altura o, por el contrario, padece de sobrepeso o
+            infrapeso.
+            </p>
+            <p>
+            <div id="subTitulo">Calcular IMC:</div>
+            Para calcular el imc de una persona únicamente se debe dividir el peso de ésta -expresado en
+            kilogramos-,
+            por su altura elevada al cuadrado -expresada en metros-. Por ejemplo una persona con una altura de
+            1,80
+            metros y un peso de 80 kg, tendrá un imc de 80 / 1,802 = 24,69. Existen algunos ajustes y mejoras a
+            la
+            fórmula original del imc, que pretenden tener en cuenta otros factores importantes a la hora de
+            decidir
+            si
+            el peso de una persona puede considerarse saludable.
+            </p>
+            <p>
+            <div id="subTitulo">Fórmula IMC:</div>
+            Su fórmula es IMC=P/E2. Es decir, la fórmula del índice de masa corporal se calcula fácilmente
+            dividiendo el
+            peso por la estatura al cuadrado. Hay que tener en cuenta que la estatura debe estar medida en
+            metros y
+            no
+            en centímetros.
+            Masa corporal:
+            En el ámbito de la nutrición y salud, se habla de masa corporal de una persona para referirse al
+            peso de
+            la
+            misma o, más técnicamente, a la cantidad de materia que tiene su cuerpo.
+            </p>
+        </div>
+        </p>
+    </aside>
+</section>
+<footer>
+    Giovanni Tullio &copy; 2020<BR>
+    <a
+        href="https://computerhoy.com/noticias/life/esta-formula-te-dice-cuantas-calorias-debes-comer-dia-adelgazar-286837">REFERENCIA
+        COMPUTERHOY</a>
+</footer>
+<script src="javascript.js"></script>
+</body>
+
+</html>
